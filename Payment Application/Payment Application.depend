@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1662955475 source:g:\college\fwd project\payment application\main.c
+	<stdio.h>
+	<stdlib.h>
+	"CardModule/CardModule.h"
+	"TerminalModule/TerminalModule.h"
+	"ServerModule/ServerModule.h"
+	"app/app.h"
+
+1662955207 source:g:\college\fwd project\payment application\servermodule\servermodule.c
+	"ServerModule.h"
+	<stdio.h>
+	<string.h>
+
+1662953128 source:g:\college\fwd project\payment application\terminalmodule\terminalmodule.c
+	"TerminalModule.h"
+	<stdio.h>
+
+1662952420 source:g:\college\fwd project\payment application\cardmodule\cardmodule.c
+	"CardModule.h"
+	<stdio.h>
+
+1661304462 g:\college\fwd project\payment application\cardmodule\cardmodule.h
+
+1661305343 g:\college\fwd project\payment application\terminalmodule\terminalmodule.h
+	"../CardModule/CardModule.h"
+
+1661346045 g:\college\fwd project\payment application\servermodule\servermodule.h
+	"../CardModule/CardModule.h"
+	"../TerminalModule/TerminalModule.h"
+
+1661366846 g:\college\fwd project\payment application\app\app.h
+	"../CardModule/CardModule.h"
+	"../ServerModule/ServerModule.h"
+	"../TerminalModule/TerminalModule.h"
+
+1661735891 source:g:\college\fwd project\payment application\app\app.c
+	<stdio.h>
+	"app.h"
+
